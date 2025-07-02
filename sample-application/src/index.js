@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
+import { App } from "./components/App.js";
+createRoot(document.getElementById("root")).render(<App></App>)
 
-// Bootstrap your React Application.
-createRoot(document.getElementById("root"))
-    .render(<h1>This is the Root New Application</h1>)
+
