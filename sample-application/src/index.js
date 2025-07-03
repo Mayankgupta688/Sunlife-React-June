@@ -1,5 +1,6 @@
 import { createRoot } from "react-dom/client";
-import { App } from "./components/App.js";
-createRoot(document.getElementById("root")).render(<App></App>)
+import { EmployeeList } from "./employees/EmployeeList.jsx";
+
+createRoot(document.getElementById("root")).render(<EmployeeList></EmployeeList>)
 
 
