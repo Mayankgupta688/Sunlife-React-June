@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
-import { EmployeeList } from "./employees/EmployeeList.jsx";
+import { GettingStarted } from "./classBasedComponent/gettingStarted.jsx";
 
-createRoot(document.getElementById("root")).render(<EmployeeList></EmployeeList>)
+createRoot(document.getElementById("root")).render(<GettingStarted></GettingStarted>)
 
 

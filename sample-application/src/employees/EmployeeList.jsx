@@ -28,8 +28,8 @@ export function EmployeeList() {
     var renderData = true;
 
     function iterateEmployees() {
-        return empList.map(function(employee) { 
-            return <h1 key={employee.empId}>My Logical Employee Name is: {employee.empName}</h1> 
+        return empList.map(function(employee) {     
+            return <h1 className={employee.empId % 2 === 0 ? "add_color_blue" : "add_color_grey"} key={employee.empId}>My Logical Employee Name is: {employee.empName}</h1> 
         })
     }
 

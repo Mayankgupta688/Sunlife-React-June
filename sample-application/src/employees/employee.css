@@ -1,3 +1,7 @@
-.add_color_header {
+.add_color_grey {
     color: grey;
+}
+
+.add_color_blue {
+    color: blue;
 }
