@@ -24,6 +24,7 @@ export function App() {
     
     return (
         <div>
+            { 1 + 1 }
             <h1 data-info={headerClass}  data-other="First"  class="First"  id="First" onClick={ function() { otherFunction(1) }}>This is First Header for the Component...</h1>
             <h1 data-info="Second" data-other="Second" class="Second" id="Second" onClick={ function(event) { headerClickedWithData(2, event)} }>This is Second Header for the Component...</h1>
             <h1 data-info="Third"  data-other="Third"  class="Third"  id="Third" onClick={ (event) => headerClickedWithData(3, event) }>This is Third Header for the Component...</h1>
