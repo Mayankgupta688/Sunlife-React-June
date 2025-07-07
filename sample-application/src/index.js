@@ -1,5 +1,9 @@
 import { createRoot } from "react-dom/client";
-import AppComponent from "./classBasedComponent/employeeList.jsx";
+import GettingStarted from "./reactHooks/stockData.jsx";
 
-createRoot(document.getElementById("root")).render(<AppComponent></AppComponent>)
+createRoot(document.getElementById("root")).render((
+    <>
+        <GettingStarted></GettingStarted>
+    </>
+));
 
