@@ -15,6 +15,14 @@ export default class ParentComponent extends Component {
         }
     }
 
+    componentDidMount() {
+
+    }
+
+    componentDidUpdate() {
+        
+    }
+
     updateData = () => {
         this.setState({
             employee: {
