@@ -3,26 +3,21 @@ import {styleObject } from "./employeeStyle.js"
 
 export function EmployeeList() {
     var empList = [{
-        empName: "Maynak",
-        empId: 0
+        empName: "Mayank",
+        empId: 0,
+        designation: "Developer"
     }, {
         empName: "Anshul",
-        empId: 1
+        empId: 1,
+        designation: "Manager"
     }, {
         empName: "Meha",
-        empId: 2
+        empId: 2,
+        designation: "Architect"
     }, {
         empName: "Meha3",
-        empId: 3
-    }, {
-        empName: "Meha4",
-        empId: 4
-    }, {
-        empName: "Meha56",
-        empId: 5
-    }, {
-        empName: "Meha7",
-        empId: 6
+        empId: 3,
+        designation: "Owner"
     }];
 
     var renderData = true;
